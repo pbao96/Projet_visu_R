@@ -1,0 +1,6 @@
+"0","ksprojects1 %>% rename(project = name) %>% group_by(country) %>% filter(usd_pledged_real == max(usd_pledged_real)) %>% select(project,country,usd_pledged_real) -> mx_name_cntry #project with max pledged per country "
+"0","ksprojects1 %>% count(country) -> n_cntry #number of projects per country"
+"0","worldcntry %>% merge(n_cntry, by.x=""iso_a2"", by.y=""country"", all = TRUE) %>%"
+"0","merge(mx_name_cntry, by.x=""iso_a2"", by.y=""country"", all = TRUE) -> worldcntry #add data to geojson"
+"0","rm(mx_name_cntry,n_cntry)"
+"0","#table(ksprojects1$country)"

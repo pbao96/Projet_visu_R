@@ -1,0 +1,5 @@
+"0","ksprojects <- read.csv(url(""https://perso.esiee.fr/~hamamic/cgi-bin/R/kickstarter/ks-projects-201801.csv""),encoding=""UTF-8"")"
+"1","
+Restarting R session...
+
+"

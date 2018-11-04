@@ -1,0 +1,98 @@
+"0","package_install = c(""shiny"", ""leaflet"",""lubridate"",""tidyverse"",""countrycode"",'treemap',""devtools"",""geojsonio"",""ggthemes"")"
+"0","install.packages(package_install)"
+"1","Error in "
+"1","install.packages"
+"1"," : "
+"1","Updating loaded packages"
+"1","
+"
+"0","library(""tidyverse"")"
+"2","Loading tidyverse: ggplot2
+Loading tidyverse: tibble
+Loading tidyverse: tidyr
+Loading tidyverse: readr
+Loading tidyverse: purrr
+Loading tidyverse: dplyr
+"
+"2","Conflicts with tidy packages -----------------------------------------------------------------------------------
+"
+"2","filter(): dplyr, stats
+lag():    dplyr, stats
+"
+"0","library(""lubridate"")"
+"2","
+Attachement du package : ‘lubridate’
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    date
+
+"
+"0","#library(""tidyr"")"
+"0","#library(""dplyr"")"
+"0","library(""shiny"")"
+"0","library(""leaflet"")"
+"0","library(""countrycode"")"
+"0","library(""treemap"")"
+"0","library(""ggthemes"")"
+"0","library(""devtools"")"
+"0","install.packages(package_install)"
+"1","Warning in "
+"1","install.packages"
+"1"," :
+  "
+"1","packages â€˜shinyâ€™, â€˜leafletâ€™, â€˜lubridateâ€™, â€˜tidyverseâ€™, â€˜countrycodeâ€™, â€˜treemapâ€™, â€˜devtoolsâ€™, â€˜ggthemesâ€™ are in use and will not be installed"
+"1","
+"
+"2","trying URL 'https://mran.microsoft.com/snapshot/2017-09-01/bin/windows/contrib/3.4/geojsonio_0.4.0.zip'
+"
+"2","Content type 'application/zip'"
+"2"," length 3131932 bytes (3.0 MB)
+"
+"2","downloaded 3.0 MB
+
+"
+"1","package â€˜geojsonioâ€™ successfully unpacked and MD5 sums checked
+"
+"1","
+"
+"1","The downloaded binary packages are in
+	C:\Users\Anon\AppData\Local\Temp\RtmpsbI0Lk\downloaded_packages"
+"1","
+"
+"0","library(""geojsonio"")"
+"2","
+Attachement du package : ‘geojsonio’
+
+"
+"2","The following object is masked from ‘package:devtools’:
+
+    lint
+
+"
+"2","The following object is masked from ‘package:shiny’:
+
+    validate
+
+"
+"2","The following object is masked from ‘package:base’:
+
+    pretty
+
+"
+"0","library(""rgdal"")"
+"2","rgdal: version: 1.2-8, (SVN revision 663)
+ Geospatial Data Abstraction Library extensions to R successfully loaded
+ Loaded GDAL runtime: GDAL 2.0.1, released 2015/09/15
+ Path to GDAL shared files: C:/Users/Anon/Anaconda3/envs/rstudio/lib/R/library/rgdal/gdal
+ Loaded PROJ.4 runtime: Rel. 4.9.2, 08 September 2015, [PJ_VERSION: 492]
+ Path to PROJ.4 shared files: C:/Users/Anon/Anaconda3/envs/rstudio/lib/R/library/rgdal/proj
+ Linking to sp version: 1.2-5 
+"
+"0","install_github(""timelyportfolio/d3treeR"")"
+"2","Skipping install of 'd3treeR' from a github remote, the SHA1 (ebb833db) has not changed since last install.
+  Use `force = TRUE` to force installation
+"
+"0","library(""d3treeR"")"
+"0"," "

@@ -1,0 +1,2 @@
+"0","ksprojects1 %>% mutate(launched = as.POSIXct(launched,format=""%Y-%m-%d %H:%M:%S"")) %>%"
+"0","                mutate(deadline = as.POSIXct(deadline,format=""%Y-%m-%d"")) -> ksprojects1"

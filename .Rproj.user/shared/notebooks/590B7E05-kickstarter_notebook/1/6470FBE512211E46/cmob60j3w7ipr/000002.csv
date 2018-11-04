@@ -1,0 +1,2 @@
+"0","#worldcntry <- geojsonio::geojson_read(""custom.geo.json"", what = ""sp"") #Load geojson map"
+"0","worldcntry <- geojsonio::geojson_read(""https://perso.esiee.fr/~hamamic/cgi-bin/R/kickstarter/custom.geo.json"", what = ""sp"")"

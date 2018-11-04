@@ -1,0 +1,2 @@
+"0","ksprojects1 %>% mutate(avrg_per_bckers = replace(avrg_per_bckers, is.infinite(avrg_per_bckers), NA)) %>% "
+"0","                mutate(avrg_per_bckers = replace(avrg_per_bckers, is.na(avrg_per_bckers), 0)) -> ksprojects1"

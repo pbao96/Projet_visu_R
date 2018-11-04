@@ -1,0 +1,10 @@
+"0","cntrycode <- as.character(unique(ksprojects1$country))"
+"0","#Conversion of country code to character"
+"0","cntryname <- countrycode(unique(ksprojects1$country), ""iso2c"", ""country.name.fr"") "
+"2","Some values were not matched unambiguously: HK
+"
+"0","#Conversion of country code to french country name "
+"0","cntryname[19] <- ""Hong Kong"""
+"0","#error with Hong Kong"
+"0","names(cntrycode) <- cntryname"
+"0","rm(cntryname)"

@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1541361825634.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "3A2DE7FB",
+    "lastKnownWriteTime" : 1541183404,
+    "last_content_update" : 1541183404,
+    "path" : "C:/R/kickstarter/ui.R",
+    "project_path" : "ui.R",
+    "properties" : {
+        "cursorPosition" : "123,73",
+        "scrollLine" : "0"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

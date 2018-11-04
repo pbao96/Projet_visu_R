@@ -1,0 +1,8 @@
+"0","ksprojects1$usd.pledged <- NULL #wrong conversion"
+"0","ksprojects1 %>% filter(!(launched <= as.POSIXct('2009-01-01 00:00:00'))) %>%  #dates error"
+"0","                filter(!(launched >= as.POSIXct('2018-01-01 00:00:00'))) %>%  #year not finished"
+"0","                filter(!(state == 'live')) %>%                                #out of date data"
+"0","                filter(!(state == 'undefined')) %>%                           #project data errors"
+"0","                filter(!(country == ""N,0\"""")) -> ksprojects1                  #coordinates error & backers error"
+"0","# ""N,0\"""" country is null island; name to which coordinates erroneously set to 0,0"
+"0","#delete levels ? use unique()"
