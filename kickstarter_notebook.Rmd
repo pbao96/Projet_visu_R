@@ -28,6 +28,11 @@ Please wait a few minutes, downloading can be a bit long
 ksprojects <- read.csv(url("https://perso.esiee.fr/~hamamic/cgi-bin/R/kickstarter/ks-projects-201801.csv"),encoding="UTF-8")
 ```
 
+```{r}
+#ksprojects <- read.csv("ks-projects-201801.csv",encoding="UTF-8")
+```
+
+
 New dataframe to keep the original unmodified
 ```{r}
 ksprojects1 <- ksprojects

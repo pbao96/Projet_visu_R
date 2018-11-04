@@ -1,6 +1,6 @@
-# Projet_R
+# Projet R
 
-Projet R - Dashboard
+Projet R - Dashboard\n
 Dataset regroupant tout les projets de la plateforme de financement participatif Kickstarter depuis 2009
 378661 projets avec chacun 15 variables tel que le pays, le nom du projet, le montant demandé, le montant récolté, etc.
 
@@ -12,9 +12,9 @@ Votre projet nécessite l'installation de packages supplémentaires. Décrivez i
 package_install = c("shiny", "leaflet","lubridate","tidyverse","countrycode",'treemap',"devtools","geojsonio","ggthemes")
 install.packages(package_install)
 
-library("devtools")
-install_github("timelyportfolio/d3treeR")
-library("d3treeR")
+library("devtools")\n
+install_github("timelyportfolio/d3treeR")\n
+library("d3treeR")\n
 
 library("tidyverse")
 library("lubridate")
@@ -34,7 +34,7 @@ library("rgdal")
 Vous décrivez ici les opérations nécessaires à l'exécution de votre notebook dans R Studio.
 
 Ouvrir kickstarter.Rproj dans R
-Une fois le projet ouvert, ouvrir kickstarter_notebook.Rmd, ui.R et server.R dans Files
+Une fois le projet ouvert, ouvrir kickstarter_notebook.Rmd, ui.R et server.R dans Files si ils ne le sont pas déjà
 Puis "Run all" (Ctrl+Alt+R) kickstarter_notebook.Rmd
 Attendre que tout charge (un peu long à cause du téléchargement du csv et des packages)
 
@@ -44,6 +44,9 @@ le probleme car cela vient apparemment du serveur où il le télecharge.
 
 Un fois fini aller dans ui.R et "Run App"
 Attendre un peu que les différents graphiques chargent
+
+S'il y a besoin de recharger le csv, décommenter la ligne "#ksprojects <- read.csv("ks-projects-201801.csv",encoding="UTF-8")" et executer la\n
+Cela permet de charger directement le csv localement (ce qui va beaucoup plus vite)
 
 
 
