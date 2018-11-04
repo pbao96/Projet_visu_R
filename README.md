@@ -1,7 +1,7 @@
 # Projet R
 
 Projet R - Dashboard  
-Dataset regroupant tout les projets de la plateforme de financement participatif Kickstarter depuis 2009  
+Dataset regroupant tous les projets de la plateforme de financement participatif Kickstarter depuis 2009  
 378661 projets avec chacun 15 variables tel que le pays, le nom du projet, le montant demandé, le montant récolté, etc.  
 
 
