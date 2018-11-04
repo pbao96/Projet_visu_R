@@ -36,7 +36,7 @@ library("rgdal")
 Vous décrivez ici les opérations nécessaires à l'exécution de votre notebook dans R Studio.
 
 Ouvrir kickstarter.Rproj dans R.  
-Une fois le projet ouvert, ouvrir kickstarter_notebook.Rmd, ui.R et server.R dans Files si ils ne le sont pas déjà.  
+Une fois le projet ouvert, ouvrir kickstarter_notebook.Rmd, ui.R et server.R dans Files s'ils ne le sont pas déjà.  
 Puis "Run all" (Ctrl+Alt+R) kickstarter_notebook.Rmd.  
 Attendre que tout charge (un peu long à cause du téléchargement du csv et des packages).  
 
