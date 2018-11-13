@@ -5,6 +5,8 @@ output: html_notebook
 
 ```{r}
 package_install = c("shiny", "leaflet","lubridate","tidyverse","countrycode",'treemap',"devtools","geojsonio","ggthemes")
+install.packages("sp")
+library("sp")
 install.packages(package_install)
 library("tidyverse")
 library("lubridate")
