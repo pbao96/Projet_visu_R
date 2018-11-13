@@ -83,7 +83,7 @@ ksprojects1 %>% mutate(avrg_per_bckers = replace(avrg_per_bckers, is.infinite(av
 ```{r}
 cntrycode <- as.character(unique(ksprojects1$country))
 #Conversion of country code to character
-cntryname <- countrycode(unique(ksprojects1$country), "iso2c", "country.name.fr") 
+cntryname <- countrycode(unique(ksprojects1$country), "iso2c", "un.name.fr") 
 #Conversion of country code to french country name 
 cntryname[19] <- "Hong Kong"
 #error with Hong Kong
